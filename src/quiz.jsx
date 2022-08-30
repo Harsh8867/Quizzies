@@ -4,12 +4,23 @@ import './App.css'
 import { useEffect } from "react";
 
 export default function Quizzies (){
+
+
+       function getQues() {
+        return  fetch('https://opentdb.com/api.php?amount=5').then(res => res.json());
+      }
+       
+      const data  = getQues();
+console.log(data);
+
+
+
     let startQuiz = true;
      function changeQuizState(){
         startQuiz = false
         console.log("working")
      }
-
+  
     return (
         startQuiz  ? 
         <div className="App">
