@@ -39,3 +39,20 @@
 .read-the-docs {
   color: #888;
 }
+
+.quizzies {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #293264;
+}
+
+.subHead {
+  margin: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
