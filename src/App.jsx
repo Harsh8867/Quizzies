@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
@@ -19,6 +20,16 @@ function App() {
       </div>
     </div>
   );
+=======
+import { useState } from 'react'
+import './App.css'
+import Quizzies from './quiz'
+
+function App() {
+  return (
+    <Quizzies/>
+  )
+>>>>>>> d5c13147277ac0b3698b36346902db8b949f25d9
 }
 
 export default App;
